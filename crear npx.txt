@@ -1,0 +1,6 @@
+crear:
+npx create-expo-app@latest Ejercicio_10 --template blank
+
+correrlo en el telefono:
+npx expo install @expo/ngrok@^4.1.0
+npx expo start --tunnel
