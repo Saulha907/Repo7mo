@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "ReconocimientoFacial",
+    "slug": "ReconocimientoFacial",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "ReconocimientoFacial necesita acceso a la cámara para detectar rostros.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.saulha907.ReconocimientoFacial"
+    },
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.saulha907.ReconocimientoFacial"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2348525-5262-4ba0-98d1-b0827152b9ef"
+      }
+    }
+  }
+}
