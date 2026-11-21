@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Alternativa vertical (tabletas que ignoran el bloqueo de orientación o multiventana). -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.blackjack21.view.CasinoBackgroundView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/safe_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/screen_padding">
+
+        <com.example.blackjack21.view.DecorativeCardsView
+            android:id="@+id/menu_cards"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/menu_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread_inside" />
+
+        <com.example.blackjack21.view.GoldTextView
+            android:id="@+id/menu_title"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/menu_title_height"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/menu_title"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="@dimen/menu_title_max_text"
+            app:autoSizeMinTextSize="@dimen/menu_title_min_text"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toTopOf="@id/menu_subtitle_row"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/menu_cards" />
+
+        <include
+            android:id="@+id/menu_subtitle_row"
+            layout="@layout/view_subtitle_ornament"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/menu_buttons"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/menu_title" />
+
+        <include
+            android:id="@+id/menu_buttons"
+            layout="@layout/view_menu_buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/screen_padding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/menu_subtitle_row"
+            app:layout_constraintWidth_max="@dimen/menu_button_max_width" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

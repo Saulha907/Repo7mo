@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Estadísticas con altura suficiente (la versión compacta está en values/). -->
+<resources>
+    <dimen name="stats_padding_vertical">12dp</dimen>
+    <dimen name="stats_title_height">40dp</dimen>
+    <dimen name="stat_card_min_height">52dp</dimen>
+    <dimen name="stat_value_text">18sp</dimen>
+    <dimen name="stat_value_highlight_text">22sp</dimen>
+    <dimen name="stat_row_margin">6dp</dimen>
+    <dimen name="stat_header_margin">8dp</dimen>
+</resources>

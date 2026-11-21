@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Subtítulo flanqueado por líneas doradas. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="@dimen/ornament_line_width"
+        android:layout_height="1.5dp"
+        android:background="@drawable/ornament_line_start" />
+
+    <TextView
+        android:id="@+id/subtitle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ornament_gap"
+        android:layout_marginEnd="@dimen/ornament_gap"
+        android:maxLines="1"
+        android:text="@string/menu_subtitle"
+        android:textAppearance="@style/TextAppearance.BlackJack21.Subtitle"
+        android:textSize="@dimen/menu_subtitle_text" />
+
+    <View
+        android:layout_width="@dimen/ornament_line_width"
+        android:layout_height="1.5dp"
+        android:background="@drawable/ornament_line_end" />
+</LinearLayout>

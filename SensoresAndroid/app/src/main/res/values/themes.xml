@@ -1,0 +1,10 @@
+<resources>
+    <!-- Tema sin barra nativa, porque diseñamos nuestro propio encabezado. -->
+    <style name="Base.Theme.SensoresAndroid" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="android:statusBarColor">#0D1B2A</item>
+        <item name="android:navigationBarColor">#0D1B2A</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.SensoresAndroid" parent="Base.Theme.SensoresAndroid" />
+</resources>

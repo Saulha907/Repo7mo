@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout es el contenedor principal de la pantalla -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:gravity="center"
+
+    android:padding="24dp"
+
+    android:background="#F3F6FA">
+
+    <!--
+        PRIMER TEXTVIEW: TÍTULO PRINCIPAL
+    -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEMO INTENT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#17233B"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <!--
+        SEGUNDO TEXTVIEW: SUBTÍTULO
+
+        Muestra una instrucción para el usuario.
+        Se utiliza un tamaño de letra más pequeño.
+        Tiene un margen inferior de 35dp.
+    -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona una actividad"
+        android:textSize="18sp"
+        android:textColor="#526078"
+        android:gravity="center"
+        android:layout_marginBottom="35dp"/>
+
+    <!--
+        PRIMER BOTÓN: CONTADOR
+
+        id: identificador para utilizarlo desde Java.
+    -->
+
+    <Button
+        android:id="@+id/btnContador"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CONTADOR"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#198754"
+        android:layout_marginBottom="16dp"/>
+
+    <!--
+        SEGUNDO BOTÓN: CALCULADORA
+
+        Tiene un identificador diferente.
+        Desde Java permitirá abrir la calculadora.
+        Su color de fondo es azul.
+    -->
+
+    <Button
+        android:id="@+id/btnCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CALCULADORA"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2563EB"
+        android:layout_marginBottom="16dp"/>
+
+    <!--
+        TERCER BOTÓN: TEMPERATURA
+
+        Se utilizará para abrir el conversor.
+        Tiene un identificador único.
+        Su color de fondo es naranja.
+    -->
+
+    <Button
+        android:id="@+id/btnTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="TEMPERATURA"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E66B23"/>
+
+</LinearLayout>

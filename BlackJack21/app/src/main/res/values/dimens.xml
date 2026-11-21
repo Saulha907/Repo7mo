@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="frame_margin">8dp</dimen>
+
+    <dimen name="menu_title_height">68dp</dimen>
+    <dimen name="menu_title_max_text">56sp</dimen>
+    <dimen name="menu_title_min_text">24sp</dimen>
+    <dimen name="menu_subtitle_text">14sp</dimen>
+    <dimen name="ornament_line_width">44dp</dimen>
+    <dimen name="ornament_gap">10dp</dimen>
+
+    <dimen name="menu_button_height">52dp</dimen>
+    <dimen name="dialog_button_min_text">11sp</dimen>
+    <dimen name="menu_button_text">17sp</dimen>
+    <dimen name="menu_button_spacing">10dp</dimen>
+    <dimen name="menu_button_max_width">320dp</dimen>
+    <dimen name="menu_button_min_width">180dp</dimen>
+    <dimen name="button_corner">12dp</dimen>
+    <dimen name="button_corner_inner">10dp</dimen>
+    <dimen name="button_shadow">4dp</dimen>
+
+    <dimen name="placeholder_title_height">60dp</dimen>
+    <dimen name="panel_corner">18dp</dimen>
+    <dimen name="panel_padding">24dp</dimen>
+
+    <!-- Estadísticas -->
+    <dimen name="stats_padding_vertical">8dp</dimen>
+    <dimen name="stats_title_height">34dp</dimen>
+    <dimen name="stats_content_max_width">880dp</dimen>
+    <dimen name="stat_card_corner">10dp</dimen>
+    <dimen name="stat_card_min_height">44dp</dimen>
+    <dimen name="stat_card_gap">8dp</dimen>
+    <dimen name="stat_value_text">16sp</dimen>
+    <dimen name="stat_value_highlight_text">18sp</dimen>
+    <dimen name="stat_label_text">11sp</dimen>
+    <dimen name="stat_label_min_text">8sp</dimen>
+    <dimen name="stat_label_height">16dp</dimen>
+    <dimen name="stat_row_margin">4dp</dimen>
+    <dimen name="stat_header_margin">6dp</dimen>
+
+    <!-- Configuración -->
+    <dimen name="settings_panel_max_width">520dp</dimen>
+    <dimen name="settings_row_height">48dp</dimen>
+    <dimen name="settings_row_text">16sp</dimen>
+    <dimen name="settings_section_text">13sp</dimen>
+    <dimen name="settings_value_width">56dp</dimen>
+
+    <!-- Mesa de juego -->
+    <dimen name="game_padding">8dp</dimen>
+    <dimen name="game_column_gap">8dp</dimen>
+    <dimen name="game_action_width">124dp</dimen>
+    <dimen name="game_action_height">40dp</dimen>
+    <dimen name="game_action_text">13sp</dimen>
+    <dimen name="game_action_spacing">6dp</dimen>
+    <dimen name="game_chip_size">50dp</dimen>
+    <dimen name="game_chip_spacing">4dp</dimen>
+    <dimen name="game_label_text">11sp</dimen>
+    <dimen name="game_status_text">13sp</dimen>
+</resources>

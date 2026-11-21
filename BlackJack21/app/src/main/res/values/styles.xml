@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Botón de casino: verde con borde dorado. -->
+    <style name="Widget.BlackJack21.CasinoButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_casino_button</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:stateListAnimator">@animator/casino_button_press</item>
+        <item name="android:textColor">@color/casino_button_text</item>
+        <item name="android:textSize">@dimen/menu_button_text</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/menu_button_height</item>
+        <item name="android:minWidth">@dimen/menu_button_min_width</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">@dimen/button_shadow</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Botón principal: relleno dorado. -->
+    <style name="Widget.BlackJack21.CasinoButton.Primary">
+        <item name="android:background">@drawable/bg_casino_button_primary</item>
+        <item name="android:textColor">@color/casino_button_primary_text</item>
+    </style>
+
+    <!-- Botones compactos de la mesa. -->
+    <style name="Widget.BlackJack21.CasinoButton.Compact">
+        <item name="android:textSize">@dimen/game_action_text</item>
+        <item name="android:minHeight">@dimen/game_action_height</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:letterSpacing">0.06</item>
+    </style>
+
+    <style name="Widget.BlackJack21.CasinoButton.Compact.Primary">
+        <item name="android:background">@drawable/bg_casino_button_primary</item>
+        <item name="android:textColor">@color/casino_button_primary_text</item>
+    </style>
+
+    <!-- Mensaje de estado de la partida. -->
+    <style name="Widget.BlackJack21.StatusPill" parent="">
+        <item name="android:background">@drawable/bg_status_pill</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/gold_light</item>
+        <item name="android:textSize">@dimen/game_status_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:accessibilityLiveRegion">polite</item>
+    </style>
+
+    <style name="TextAppearance.BlackJack21.Subtitle" parent="">
+        <item name="android:textColor">@color/gold_light</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.35</item>
+        <item name="android:shadowColor">@color/shadow</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+    <!-- Estadísticas -->
+    <style name="Widget.BlackJack21.StatRow" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/stat_row_margin</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:divider">@drawable/stat_gap</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+
+    <style name="Widget.BlackJack21.StatHeader" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/stat_header_margin</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:letterSpacing">0.14</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/gold</item>
+        <item name="android:textSize">@dimen/settings_section_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

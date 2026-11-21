@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Acciones en dos filas de tres (vertical). -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_actions"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_hit"
+            style="@style/Widget.BlackJack21.CasinoButton.Compact"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/game_action_height"
+            android:layout_weight="1"
+            android:text="@string/action_hit" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_stand"
+            style="@style/Widget.BlackJack21.CasinoButton.Compact"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/game_action_height"
+            android:layout_marginStart="@dimen/game_action_spacing"
+            android:layout_weight="1"
+            android:text="@string/action_stand" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_double"
+            style="@style/Widget.BlackJack21.CasinoButton.Compact"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/game_action_height"
+            android:layout_marginStart="@dimen/game_action_spacing"
+            android:layout_weight="1"
+            android:text="@string/action_double" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/game_action_spacing"
+        android:clipChildren="false"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_split"
+            style="@style/Widget.BlackJack21.CasinoButton.Compact"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/game_action_height"
+            android:layout_weight="1"
+            android:text="@string/action_split" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_insurance"
+            style="@style/Widget.BlackJack21.CasinoButton.Compact"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/game_action_height"
+            android:layout_marginStart="@dimen/game_action_spacing"
+            android:layout_weight="1"
+            android:text="@string/action_insurance" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_deal"
+            style="@style/Widget.BlackJack21.CasinoButton.Compact.Primary"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/game_action_height"
+            android:layout_marginStart="@dimen/game_action_spacing"
+            android:layout_weight="1"
+            android:text="@string/action_deal" />
+    </LinearLayout>
+</LinearLayout>

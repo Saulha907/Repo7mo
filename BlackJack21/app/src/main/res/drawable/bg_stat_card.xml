@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tarjeta de estadística: verde profundo con filo dorado fino. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="@dimen/stat_card_corner" />
+            <solid android:color="#80D4AF37" />
+        </shape>
+    </item>
+    <item android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp">
+        <shape>
+            <corners android:radius="@dimen/stat_card_corner" />
+            <gradient android:angle="270" android:endColor="@color/background_dark"
+                android:startColor="@color/panel_top" />
+        </shape>
+    </item>
+</layer-list>

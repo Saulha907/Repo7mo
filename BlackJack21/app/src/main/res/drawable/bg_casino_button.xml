@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Botón verde de casino con borde dorado, sombra inferior y brillo superior. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Deshabilitado -->
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:top="@dimen/button_shadow">
+                <shape>
+                    <corners android:radius="@dimen/button_corner" />
+                    <solid android:color="@color/shadow_soft" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/button_shadow">
+                <shape>
+                    <corners android:radius="@dimen/button_corner" />
+                    <solid android:color="@color/button_disabled" />
+                </shape>
+            </item>
+            <item android:bottom="6dp" android:left="2dp" android:right="2dp" android:top="2dp">
+                <shape>
+                    <corners android:radius="@dimen/button_corner_inner" />
+                    <solid android:color="@color/button_secondary_dark" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Pulsado: se hunde hacia la sombra y se oscurece -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:top="@dimen/button_shadow">
+                <shape>
+                    <corners android:radius="@dimen/button_corner" />
+                    <solid android:color="@color/shadow" />
+                </shape>
+            </item>
+            <item android:bottom="1dp" android:top="3dp">
+                <shape>
+                    <corners android:radius="@dimen/button_corner" />
+                    <gradient android:angle="270" android:centerColor="@color/gold_light"
+                        android:endColor="@color/gold" android:startColor="@color/gold_light" />
+                </shape>
+            </item>
+            <item android:bottom="3dp" android:left="2dp" android:right="2dp" android:top="5dp">
+                <shape>
+                    <corners android:radius="@dimen/button_corner_inner" />
+                    <gradient android:angle="270" android:centerColor="@color/button_secondary_dark"
+                        android:endColor="@color/button_pressed_dark"
+                        android:startColor="@color/button_secondary" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Normal -->
+    <item>
+        <layer-list>
+            <item android:left="1dp" android:right="1dp" android:top="@dimen/button_shadow">
+                <shape>
+                    <corners android:radius="@dimen/button_corner" />
+                    <solid android:color="@color/shadow" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/button_shadow">
+                <shape>
+                    <corners android:radius="@dimen/button_corner" />
+                    <gradient android:angle="270" android:centerColor="@color/gold"
+                        android:endColor="@color/gold_dark" android:startColor="@color/gold_light" />
+                </shape>
+            </item>
+            <item android:bottom="6dp" android:left="2dp" android:right="2dp" android:top="2dp">
+                <shape>
+                    <corners android:radius="@dimen/button_corner_inner" />
+                    <gradient android:angle="270" android:centerColor="@color/button_secondary"
+                        android:endColor="@color/button_secondary_dark"
+                        android:startColor="@color/button_secondary_light" />
+                </shape>
+            </item>
+            <item android:gravity="top|fill_horizontal" android:height="1dp"
+                android:left="14dp" android:right="14dp" android:top="4dp">
+                <shape>
+                    <solid android:color="@color/highlight" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

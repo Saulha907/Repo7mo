@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Estadísticas: tarjetas sobre fondo verde oscuro, encabezados dorados. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_room">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/safe_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/screen_padding"
+        android:paddingTop="@dimen/stats_padding_vertical"
+        android:paddingEnd="@dimen/screen_padding"
+        android:paddingBottom="@dimen/stats_padding_vertical">
+
+        <com.example.blackjack21.view.GoldTextView
+            android:id="@+id/stats_title"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/stats_title_height"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/stats_title"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="@dimen/menu_title_max_text"
+            app:autoSizeMinTextSize="@dimen/menu_title_min_text"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.6" />
+
+        <ScrollView
+            android:id="@+id/stats_scroll"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:fadingEdgeLength="16dp"
+            android:fillViewport="true"
+            android:requiresFadingEdge="vertical"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toTopOf="@id/button_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/stats_title"
+            app:layout_constraintWidth_max="@dimen/stats_content_max_width">
+
+            <LinearLayout
+                android:id="@+id/stats_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/row_highlight"
+                    style="@style/Widget.BlackJack21.StatRow" />
+
+                <TextView
+                    style="@style/Widget.BlackJack21.StatHeader"
+                    android:text="@string/stats_section_rounds" />
+
+                <LinearLayout
+                    android:id="@+id/row_rounds"
+                    style="@style/Widget.BlackJack21.StatRow" />
+
+                <TextView
+                    style="@style/Widget.BlackJack21.StatHeader"
+                    android:text="@string/stats_section_chips" />
+
+                <LinearLayout
+                    android:id="@+id/row_chips"
+                    style="@style/Widget.BlackJack21.StatRow" />
+
+                <TextView
+                    android:id="@+id/stats_hands_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/stat_label_text" />
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_back"
+            style="@style/Widget.BlackJack21.CasinoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/menu_button_height"
+            android:text="@string/action_back_to_menu"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

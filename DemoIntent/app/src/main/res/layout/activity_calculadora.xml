@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F3F6FA">
+
+    <TextView
+        android:id="@+id/txtTituloCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculadora de sumas"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#17233B"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/edtNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa el primer número"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edtNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa el segundo número"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SUMAR"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2563EB"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: 0"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2563EB"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnRegresarCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="REGRESAR AL MENÚ"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#526078"/>
+
+</LinearLayout>

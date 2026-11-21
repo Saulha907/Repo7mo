@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- La cámara externa devuelve una miniatura que se presenta en ImageView. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:background="#0D1B2A">
+    <Button android:id="@+id/btnVolver" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="← Regresar al menú" android:textAllCaps="false"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Cámara" android:textSize="28sp" android:textStyle="bold" android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Toma una fotografía con la aplicación de cámara instalada."
+        android:textColor="#B7C9D8" android:layout_marginTop="12dp"/>
+    <!-- En el AVD se puede configurar la cámara emulada desde Device Manager. -->
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Emulador: Device Manager &gt; Editar AVD &gt; Camera. Configura una cámara emulada y luego pulsa ABRIR CÁMARA."
+        android:textColor="#FFFFFF" android:layout_marginTop="16dp" android:textSize="14sp"/>
+    <Button android:id="@+id/btnTomarFoto" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="24dp"
+        android:text="ABRIR CÁMARA" android:backgroundTint="#35C7B2" android:textColor="#071A25"/>
+    <ImageView android:id="@+id/imagenFoto" android:layout_width="match_parent"
+        android:layout_height="320dp" android:layout_marginTop="24dp" android:scaleType="fitCenter"
+        android:contentDescription="Vista previa de la foto capturada"/>
+    <TextView android:id="@+id/txtEstado" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="No has tomado ninguna foto."
+        android:textColor="#FFFFFF" android:layout_marginTop="16dp"/>
+</LinearLayout>

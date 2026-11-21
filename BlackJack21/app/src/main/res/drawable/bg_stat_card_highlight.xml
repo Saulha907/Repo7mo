@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tarjeta destacada: marco dorado degradado. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="@dimen/stat_card_corner" />
+            <gradient android:angle="315" android:centerColor="@color/gold"
+                android:endColor="@color/gold_dark" android:startColor="@color/gold_light" />
+        </shape>
+    </item>
+    <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+        <shape>
+            <corners android:radius="@dimen/stat_card_corner" />
+            <gradient android:angle="270" android:endColor="@color/background_dark"
+                android:startColor="@color/panel_top" />
+        </shape>
+    </item>
+</layer-list>

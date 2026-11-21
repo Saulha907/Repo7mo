@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Contenedor que permite posicionamiento relativo -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F3F6FA">
+
+    <!-- Título colocado arriba -->
+    <TextView
+        android:id="@+id/txtTituloRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJEMPLO DE RELATIVELAYOUT"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#17233B"
+        android:gravity="center"
+        android:layout_alignParentTop="true"/>
+
+    <!-- Botón izquierdo debajo del título -->
+    <Button
+        android:id="@+id/btnIzquierda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Izquierda"
+        android:layout_below="@id/txtTituloRelative"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Botón derecho debajo del título -->
+    <Button
+        android:id="@+id/btnDerecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Derecha"
+        android:layout_below="@id/txtTituloRelative"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Botón centrado debajo del izquierdo -->
+    <Button
+        android:id="@+id/btnCentro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centro"
+        android:layout_below="@id/btnIzquierda"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Botón situado en la parte inferior -->
+    <Button
+        android:id="@+id/btnInferior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Botón Inferior"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F3F6FA">
+
+    <TextView
+        android:id="@+id/txtTituloTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversor de temperatura"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#17233B"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txtUnidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Celsius a Fahrenheit"
+        android:textSize="18sp"
+        android:textColor="#526078"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/edtCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa los grados Celsius"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CONVERTIR"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E66B23"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/txtResultadoTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: 0 °F"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#E66B23"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnRegresarTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="REGRESAR AL MENÚ"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#526078"/>
+
+</LinearLayout>

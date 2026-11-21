@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Selector de fichas en columna. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chip_rack"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/game_chip_spacing"
+        android:text="@string/game_chips"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.BlackJack21.Subtitle"
+        android:textSize="@dimen/game_label_text" />
+
+    <com.example.blackjack21.view.ChipView
+        android:id="@+id/chip_5"
+        android:layout_width="@dimen/game_chip_size"
+        android:layout_height="@dimen/game_chip_size"
+        android:layout_marginTop="@dimen/game_chip_spacing"
+        app:chipAmount="5" />
+
+    <com.example.blackjack21.view.ChipView
+        android:id="@+id/chip_25"
+        android:layout_width="@dimen/game_chip_size"
+        android:layout_height="@dimen/game_chip_size"
+        android:layout_marginTop="@dimen/game_chip_spacing"
+        app:chipAmount="25" />
+
+    <com.example.blackjack21.view.ChipView
+        android:id="@+id/chip_100"
+        android:layout_width="@dimen/game_chip_size"
+        android:layout_height="@dimen/game_chip_size"
+        android:layout_marginTop="@dimen/game_chip_spacing"
+        app:chipAmount="100" />
+
+    <com.example.blackjack21.view.ChipView
+        android:id="@+id/chip_500"
+        android:layout_width="@dimen/game_chip_size"
+        android:layout_height="@dimen/game_chip_size"
+        android:layout_marginTop="@dimen/game_chip_spacing"
+        app:chipAmount="500" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_clear_bet"
+        style="@style/Widget.BlackJack21.CasinoButton.Compact"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/game_action_height"
+        android:layout_marginTop="@dimen/game_action_spacing"
+        android:text="@string/action_clear_bet" />
+</LinearLayout>

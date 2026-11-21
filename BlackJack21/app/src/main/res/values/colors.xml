@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Mesa de casino -->
+    <color name="table_felt">#FF0B6B3A</color>
+    <color name="table_felt_light">#FF138A4C</color>
+    <color name="table_felt_dark">#FF064726</color>
+    <color name="table_rail">#FF4A2511</color>
+    <color name="table_rail_dark">#FF2E160A</color>
+    <color name="background_dark">#FF03200F</color>
+
+    <!-- Bordes dorados -->
+    <color name="gold">#FFD4AF37</color>
+    <color name="gold_light">#FFF3D778</color>
+    <color name="gold_dark">#FF9C7A1E</color>
+    <color name="gold_deep">#FF6B5212</color>
+
+    <!-- Cartas -->
+    <color name="card_face">#FFFDFCF7</color>
+    <color name="card_face_inner">#FFF7EBC8</color>
+    <color name="card_border">#FFB8B8B8</color>
+    <color name="card_red">#FFC8102E</color>
+    <color name="card_black">#FF1A1A1A</color>
+    <color name="card_back">#FF8B0000</color>
+    <color name="card_back_pattern">#FFB22222</color>
+
+    <!-- Fichas -->
+    <color name="chip_red">#FFC62828</color>
+    <color name="chip_blue">#FF1E4FA8</color>
+    <color name="chip_green">#FF1B7F3B</color>
+    <color name="chip_black">#FF1C1C1C</color>
+    <color name="chip_purple">#FF6A2C91</color>
+    <color name="chip_stripe">#FFF5F1E6</color>
+
+    <!-- Botones -->
+    <color name="button_primary">#FFD4AF37</color>
+    <color name="button_primary_text">#FF1A1A1A</color>
+    <color name="button_secondary">#FF1E3A2A</color>
+    <color name="button_secondary_light">#FF24573B</color>
+    <color name="button_secondary_dark">#FF0F2318</color>
+    <color name="button_pressed_dark">#FF081A10</color>
+    <color name="button_secondary_text">#FFF3D778</color>
+    <color name="button_danger">#FFA4161A</color>
+    <color name="button_disabled">#FF5A5A5A</color>
+    <color name="button_disabled_text">#FFC4C4C4</color>
+
+    <!-- Superficies y efectos -->
+    <color name="panel_top">#FF0D3B22</color>
+    <color name="shadow">#66000000</color>
+    <color name="shadow_soft">#33000000</color>
+    <color name="highlight">#40FFFFFF</color>
+
+    <!-- Resultados -->
+    <color name="result_win">#FF1E7A3C</color>
+    <color name="result_push">#FF455A64</color>
+    <color name="status_background">#D9081A10</color>
+
+    <!-- Texto -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FFCFE8D8</color>
+</resources>

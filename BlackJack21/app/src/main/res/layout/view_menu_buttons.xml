@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Columna de botones del menú principal. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_buttons"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_play"
+        style="@style/Widget.BlackJack21.CasinoButton.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_button_height"
+        android:text="@string/menu_play" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_stats"
+        style="@style/Widget.BlackJack21.CasinoButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_button_height"
+        android:layout_marginTop="@dimen/menu_button_spacing"
+        android:text="@string/menu_stats" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_settings"
+        style="@style/Widget.BlackJack21.CasinoButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_button_height"
+        android:layout_marginTop="@dimen/menu_button_spacing"
+        android:text="@string/menu_settings" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_exit"
+        style="@style/Widget.BlackJack21.CasinoButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_button_height"
+        android:layout_marginTop="@dimen/menu_button_spacing"
+        android:text="@string/menu_exit" />
+</LinearLayout>

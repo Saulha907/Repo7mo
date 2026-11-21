@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_item_group.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\item_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_item_contact.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_item_message_received.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\item_message_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\drawable_bg_bubble_received.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\drawable\\bg_bubble_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_activity_create_group.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\activity_create_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_item_message_sent.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\item_message_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_activity_contacts.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\activity_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\drawable_bg_bubble_sent.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\drawable\\bg_bubble_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_activity_recover_password.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\activity_recover_password.xml"
+    },
+    {
+        "merged": "com.example.clonewhatsapp-debug-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.clonewhatsapp-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.clonewhatsapp-debug-37:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.clonewhatsapp-main-39:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-debug-37:\\layout_item_selectable_contact.xml.flat",
+        "source": "C:\\Users\\saulo\\.gradle\\daemon\\8.9\\com.example.clonewhatsapp-main-39:\\layout\\item_selectable_contact.xml"
+    }
+]

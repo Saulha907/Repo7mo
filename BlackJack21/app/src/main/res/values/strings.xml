@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">BlackJack21</string>
+    <string name="app_tagline">Blackjack de casino · Fichas virtuales</string>
+
+    <!-- Menú principal -->
+    <string name="menu_title">BLACKJACK 21</string>
+    <string name="menu_subtitle">CASINO BLACKJACK</string>
+    <string name="menu_play">Jugar</string>
+    <string name="menu_stats">Estadísticas</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_exit">Salir</string>
+
+    <!-- Acciones -->
+    <string name="action_hit">Pedir</string>
+    <string name="action_stand">Plantarse</string>
+    <string name="action_double">Doblar</string>
+    <string name="action_split">Dividir</string>
+    <string name="action_insurance">Seguro</string>
+    <string name="action_deal">Repartir</string>
+    <string name="action_back_to_menu">Volver al menú</string>
+
+    <!-- Juego -->
+    <string name="label_balance">Saldo</string>
+    <string name="label_bet">Apuesta</string>
+    <string name="label_dealer">Crupier</string>
+    <string name="label_player">Jugador</string>
+    <string name="disclaimer_virtual">Juego de entretenimiento. Sin dinero real.</string>
+
+    <!-- Estadísticas -->
+    <string name="stats_title">Estadísticas</string>
+    <string name="stats_section_rounds">Rondas</string>
+    <string name="stats_section_chips">Fichas y partidas</string>
+    <string name="stat_balance">Saldo actual</string>
+    <string name="stat_net">Balance neto</string>
+    <string name="stat_win_rate">Rondas ganadas</string>
+    <string name="stat_rounds_played">Jugadas</string>
+    <string name="stat_rounds_won">Ganadas</string>
+    <string name="stat_rounds_lost">Perdidas</string>
+    <string name="stat_rounds_pushed">Empates</string>
+    <string name="stat_blackjacks">Blackjacks naturales</string>
+    <string name="stat_chips_won">Fichas ganadas</string>
+    <string name="stat_chips_lost">Fichas perdidas</string>
+    <string name="stat_biggest_win">Mayor ganancia neta</string>
+    <string name="stat_restarts">Reinicios por Game Over</string>
+    <string name="stat_percent">%1$d %%</string>
+    <string name="stats_hands_note">Manos: %1$s ganadas · %2$s perdidas · %3$s empatadas. Una mano dividida cuenta como mano, no como ronda.</string>
+
+    <!-- Configuración -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_section_audio">Sonido</string>
+    <string name="settings_sound_effects">Efectos de sonido</string>
+    <string name="settings_volume">Volumen</string>
+    <string name="settings_volume_value">%1$d %%</string>
+
+    <!-- Diálogo de salida -->
+    <string name="exit_title">¿Salir del juego?</string>
+    <string name="exit_message">¿Seguro que deseas cerrar BlackJack21?</string>
+    <string name="exit_confirm">Salir</string>
+    <string name="exit_cancel">Cancelar</string>
+
+    <!-- Mesa de juego -->
+    <string name="table_pays">BLACKJACK PAYS 3 TO 2</string>
+    <string name="table_description">Mesa de Blackjack con el crupier, tres jugadores automáticos y tu asiento</string>
+    <string name="dealer_tag">CRUPIER</string>
+    <string name="player_you">Tú</string>
+    <string name="game_menu">Menú</string>
+    <string name="game_chips">Fichas</string>
+    <string name="chip_description">Ficha de %1$d</string>
+
+    <!-- Partida -->
+    <string name="action_clear_bet">Borrar</string>
+    <string name="action_new_round">Nueva ronda</string>
+    <string name="label_net">Resultado</string>
+    <string name="label_sitting_out">Fuera de ronda</string>
+    <string name="label_out_of_chips">Sin fichas</string>
+    <string name="notice_insufficient">Saldo insuficiente para esa ficha</string>
+    <string name="result_blackjack">BLACKJACK</string>
+    <string name="result_win">GANA</string>
+    <string name="result_push">EMPATE</string>
+    <string name="result_lose">PIERDE</string>
+    <string name="result_bust">SE PASA</string>
+
+    <string name="status_place_bet">Elige tus fichas (mínimo 10) y pulsa REPARTIR</string>
+    <string name="status_bet_ready">Apuesta: %1$s · pulsa REPARTIR</string>
+    <string name="status_game_over">Sin fichas suficientes para seguir jugando</string>
+    <string name="status_insurance">El crupier muestra un As · ¿seguro?</string>
+    <string name="status_your_turn">Tu turno · %1$s</string>
+    <string name="status_your_turn_split">Tu turno · mano %1$d de %2$d · %3$s</string>
+    <string name="status_bot_turn">Turno de %1$s</string>
+    <string name="status_round_win">¡Ganas %1$s fichas! · pulsa NUEVA RONDA</string>
+    <string name="status_round_lose">Pierdes %1$s fichas · pulsa NUEVA RONDA</string>
+    <string name="status_round_push">Recuperas tu apuesta · pulsa NUEVA RONDA</string>
+    <string name="status_round_watched">Ronda terminada · pulsa NUEVA RONDA</string>
+
+    <string name="insurance_title">¿Contratar seguro?</string>
+    <string name="insurance_message">El crupier muestra un As. Seguro por %1$s fichas: paga 2:1 si el crupier tiene Blackjack.</string>
+    <string name="insurance_accept">Aceptar</string>
+    <string name="insurance_decline">Rechazar</string>
+
+
+    <!-- Fin de partida -->
+    <string name="game_over_title">Fin de la partida</string>
+    <string name="game_over_message">Te quedan %1$s fichas y la apuesta mínima es 10. Reinicia para empezar de nuevo con 1,000 fichas.</string>
+    <string name="game_over_restart">Reiniciar</string>
+    <string name="game_over_menu">Volver al menú</string>
+
+    <!-- Presentación animada -->
+    <string name="callout_hit">PIDE</string>
+    <string name="callout_stand">SE PLANTA</string>
+    <string name="callout_double">DOBLA</string>
+    <string name="callout_split">DIVIDE</string>
+    <string name="status_dealing">Repartiendo…</string>
+    <string name="status_dealer_turn">Turno del crupier</string>
+    <string name="status_bot_action">%1$s: %2$s</string>
+    <string name="status_bots_insurance">Los jugadores deciden el seguro…</string>
+    <string name="status_results">Resultados de la ronda</string>
+    <string name="status_your_move">Tu jugada…</string>
+</resources>

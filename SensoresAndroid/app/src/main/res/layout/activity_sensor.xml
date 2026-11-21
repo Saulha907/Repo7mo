@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diseño reutilizable para las pantallas de lectura de sensores. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#0D1B2A" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <Button android:id="@+id/btnVolver" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="← Regresar al menú"
+            android:textAllCaps="false"/>
+        <TextView android:id="@+id/txtTitulo" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF" android:textSize="28sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/txtDescripcion" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="12dp"
+            android:textColor="#B7C9D8" android:textSize="16sp"/>
+        <!-- Indica dónde emular el sensor y cómo interpretar sus cambios. -->
+        <TextView android:id="@+id/txtEmulador" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="18dp"
+            android:textColor="#FFFFFF" android:textSize="15sp"
+            android:padding="14dp" android:background="@drawable/rounded_panel"/>
+        <!-- Texto actualizado por los callbacks de Android SensorManager. -->
+        <TextView android:id="@+id/txtDatos" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="28dp"
+            android:padding="24dp" android:background="@drawable/rounded_panel"
+            android:text="Esperando datos..." android:textColor="#35C7B2"
+            android:textSize="22sp" android:lineSpacingExtra="14dp"/>
+        <!-- Controles exclusivos del podómetro para demostración en AVD sin sensor. -->
+        <Button android:id="@+id/btnModoPasos" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:visibility="gone"
+            android:layout_marginTop="20dp" android:text="Activar DEMOSTRACIÓN manual"/>
+        <Button android:id="@+id/btnSumarPaso" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:visibility="gone"
+            android:text="Simular +1 paso"/>
+        <Button android:id="@+id/btnReiniciarPasos" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:visibility="gone"
+            android:text="Reiniciar pasos simulados"/>
+    </LinearLayout>
+</ScrollView>

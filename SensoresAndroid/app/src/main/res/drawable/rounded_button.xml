@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fondo del botón principal de cada pantalla. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#35C7B2"/><corners android:radius="12dp"/>
+</shape>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mesa de juego en horizontal: fichas | mesa | acciones. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_room"
+    tools:context=".ui.GameActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/safe_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/game_padding">
+
+        <!-- Columna izquierda: menú y selector de fichas -->
+        <LinearLayout
+            android:id="@+id/game_left"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_menu"
+                style="@style/Widget.BlackJack21.CasinoButton.Compact"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/game_action_height"
+                android:text="@string/game_menu" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <include layout="@layout/view_chip_rack" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- Mesa -->
+        <com.example.blackjack21.view.table.TableView
+            android:id="@+id/table_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/game_column_gap"
+            android:layout_marginEnd="@dimen/game_column_gap"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/game_actions"
+            app:layout_constraintStart_toEndOf="@id/game_left"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Mensaje de estado sobre el borde inferior de la mesa -->
+        <TextView
+            android:id="@+id/game_status"
+            style="@style/Widget.BlackJack21.StatusPill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="@id/table_view"
+            app:layout_constraintEnd_toEndOf="@id/table_view"
+            app:layout_constraintStart_toStartOf="@id/table_view" />
+
+        <!-- Columna derecha: acciones -->
+        <include
+            android:id="@+id/game_actions"
+            layout="@layout/view_game_actions"
+            android:layout_width="@dimen/game_action_width"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

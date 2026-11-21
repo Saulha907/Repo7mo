@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F3F6FA">
+
+    <TextView
+        android:id="@+id/txtTituloContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contador"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#17233B"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/txtContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        android:textColor="#198754"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="AUMENTAR +1"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#198754"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnRegresarContador"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="REGRESAR AL MENÚ"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#526078"/>
+
+</LinearLayout>

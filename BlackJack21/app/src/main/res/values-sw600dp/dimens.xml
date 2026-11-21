@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">36dp</dimen>
+    <dimen name="frame_margin">14dp</dimen>
+
+    <dimen name="menu_title_height">108dp</dimen>
+    <dimen name="menu_title_max_text">92sp</dimen>
+    <dimen name="menu_title_min_text">36sp</dimen>
+    <dimen name="menu_subtitle_text">20sp</dimen>
+    <dimen name="ornament_line_width">90dp</dimen>
+    <dimen name="ornament_gap">16dp</dimen>
+
+    <dimen name="menu_button_height">68dp</dimen>
+    <dimen name="menu_button_text">22sp</dimen>
+    <dimen name="menu_button_spacing">16dp</dimen>
+    <dimen name="menu_button_max_width">420dp</dimen>
+    <dimen name="menu_button_min_width">260dp</dimen>
+    <dimen name="button_corner">14dp</dimen>
+    <dimen name="button_corner_inner">12dp</dimen>
+    <dimen name="button_shadow">5dp</dimen>
+
+    <dimen name="placeholder_title_height">96dp</dimen>
+    <dimen name="panel_corner">22dp</dimen>
+    <dimen name="panel_padding">36dp</dimen>
+
+    <!-- Mesa de juego -->
+    <dimen name="game_padding">14dp</dimen>
+    <dimen name="game_column_gap">14dp</dimen>
+    <dimen name="game_action_width">180dp</dimen>
+    <dimen name="game_action_height">56dp</dimen>
+    <dimen name="game_action_text">18sp</dimen>
+    <dimen name="game_action_spacing">10dp</dimen>
+    <dimen name="game_chip_size">72dp</dimen>
+    <dimen name="game_chip_spacing">8dp</dimen>
+    <dimen name="game_label_text">15sp</dimen>
+    <dimen name="game_status_text">18sp</dimen>
+</resources>
